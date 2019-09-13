@@ -1,0 +1,78 @@
+.wrapper {
+  background-color: #304492;
+  height: 100%;
+  width: 100%;
+}
+
+.mew-logo {
+  height: 44px;
+  padding-top: 70px;
+}
+
+.header-text {
+  color: rgb(255, 255, 255);
+  font-family: 'SFProText-Bold';
+  font-size: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.body-text {
+  color: rgb(255, 255, 255);
+  font-family: SFProText-Regular;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+  width: 648px;
+}
+
+.img-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cx-txt {
+  color: rgb(255, 255, 255);
+  font-family: SFProText-Bold;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 86px;
+}
+
+.mew-cx-btn {
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 192, 165);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  font-family: SFProText-Medium;
+  font-size: 14px;
+  height: 60px;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding-left: 47px;
+  width: 262px;
+}
+
+.mew-site {
+  box-shadow: 0px 10px 5px #f2f4fa;
+  display: block;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px; 
+  position: absolute;
+  right: 0;
+  width: 50%;
+  z-index: 99999;
+}
+
+.footer-design {
+  left: 0;
+  max-width: 100%;
+  margin-top: 168px;
+}

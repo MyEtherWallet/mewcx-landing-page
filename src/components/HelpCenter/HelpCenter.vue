@@ -10,24 +10,16 @@
     <div class="body-container">
       <hr align="center">
       <qa-toggle
-        :question="'Balances not loading or showing on MyEtherWallet'"
-        :answer="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Idcirco enim non desideraret, quia, quod dolore caret, id in voluptate est. Nihil ad rem! Ne sit sane; Nam, ut saepe iam dixi, in infirma aetate inbecillaque mente vis naturae quasi per caliginem cernitur'"
+        :question="'MyEtherWallet: An Introduction'"
+        :answer="'https://kb.myetherwallet.com/en/getting-started/myetherwallet-an-introduction/'"
       ></qa-toggle>
       <qa-toggle
-        :question="'Does MyEtherWallet support Bitcoin or other coins (LTC STEEM ZEC)?'"
-        :answer="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Idcirco enim non desideraret, quia, quod dolore caret, id in voluptate est. Nihil ad rem! Ne sit sane; Nam, ut saepe iam dixi, in infirma aetate inbecillaque mente vis naturae quasi per caliginem cernitur'"      
+        :question="'What’s the Difference Between an Exchange (i.e. Coinbase, Kraken, Gemini, Binance, etc.) and MyEtherWallet?'"
+        :answer="'https://kb.myetherwallet.com/en/getting-started/difference-between-mew-and-exchange/'"      
       ></qa-toggle>
       <qa-toggle
-        :question="'ETH or tokens sent to or from exchange haven\'t shown up'"
-        :answer="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Idcirco enim non desideraret, quia, quod dolore caret, id in voluptate est. Nihil ad rem! Ne sit sane; Nam, ut saepe iam dixi, in infirma aetate inbecillaque mente vis naturae quasi per caliginem cernitur'"
-      ></qa-toggle>
-      <qa-toggle
-        :question="'Where can I buy / sell / trade / exchange my ETH or tokens?'"
-        :answer="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Idcirco enim non desideraret, quia, quod dolore caret, id in voluptate est. Nihil ad rem! Ne sit sane; Nam, ut saepe iam dixi, in infirma aetate inbecillaque mente vis naturae quasi per caliginem cernitur'"
-      ></qa-toggle>
-      <qa-toggle
-        :question="'What is an ICO?'"
-        :answer="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Idcirco enim non desideraret, quia, quod dolore caret, id in voluptate est. Nihil ad rem! Ne sit sane; Nam, ut saepe iam dixi, in infirma aetate inbecillaque mente vis naturae quasi per caliginem cernitur'"
+        :question="'How to Create a Wallet'"
+        :answer="'https://kb.myetherwallet.com/en/getting-started/how-to-create-a-wallet/'"
       ></qa-toggle>
     </div>
   </div>

@@ -10,10 +10,8 @@
         <img src="@/assets/images/arrow.png"/>
       </button>
     </div>
-    <div>
-      <img class="mew-site" alt="mew-site" src="@/assets/images/1.png">
-      <img class="footer-design" alt="footer-design" src="@/assets/images/2.png">
-    </div>
+    <img class="mew-site" alt="mew-site" src="@/assets/images/1.png">
+    <img class="footer-design" alt="footer-design" src="@/assets/images/2.png">
   </div>
 </template>
 

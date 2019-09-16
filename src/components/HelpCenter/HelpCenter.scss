@@ -1,0 +1,41 @@
+.header-container {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+
+  > div > a {
+    color: rgb(5, 192, 165);
+    font-family: SFProText-Medium;
+    font-size: 14px;
+    text-decoration: none;
+  }
+}
+
+.body-container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.header {
+  color: rgb(11, 26, 64);
+  font-family: SFProText-Bold;
+  font-size: 30px;
+  margin-right: 300px;
+}
+
+hr {
+  background-color: #e8e8e8;
+  border: 1px solid #e8e8e8;
+  color: rgb(232, 232, 232);
+  border: 1px solid rgb(232, 232, 232);
+  margin-top: 25px;
+}
+
+.help-link {
+  margin-right: 20px;
+}
+
+.faq-wrapper {
+  margin-bottom: 40px;
+}

@@ -1,6 +1,6 @@
 .question-txt {
   color: rgb(51, 71, 88);
-  font-family: SFProText-Medium;
+  font-family: 'SFProText-Medium';
   font-size: 16px;
 }
 
@@ -22,16 +22,22 @@ hr {
 .toggle-icon {
   color: rgb(0, 57, 69);
   cursor: pointer;
-  font-family: SFProText-Medium;
+  font-family: 'SFProText-Medium';
   font-size: 30px;
 }
 
 .answer-container {
-  font-family: SFProText-Regular;
+  font-family: 'SFProText-Regular';
   font-size: 14px;
   padding: 30px;
   background-color: #f9f9f9;
   border: 1px solid #e8e8e8;
   border-radius: 5px;
   margin-top: 15px;
+
+  > a {
+    display: inline-block;
+    max-width: 100%;
+    overflow: auto;
+  }
 }

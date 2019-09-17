@@ -11,9 +11,19 @@
   width: 100%;
 }
 
+.container {
+  margin: 0;
+  min-width: 100%;
+  padding: 0;
+}
+
+.row {
+  margin: 0;
+}
+
 .support-links > a {
   color: rgb(255, 255, 255);
-  font-family: SFProText-Regular;
+  font-family: 'SFProText-Regular';
   font-size: 12px;
   margin-right: 20px;
   text-decoration: none;
@@ -29,7 +39,7 @@
 
 .copyright-txt {
   color: rgb(150, 168, 182);
-  font-family: SFProText-Regular;
+  font-family: 'SFProText-Regular';
   font-size: 12px;
   font-weight: normal;
   text-align: right;

@@ -1,7 +1,9 @@
 @font-face {
   font-family: 'SFProDisplay-Bold';
   font-display: block;
-  src: url('~@/assets/fonts/SFProDisplay-Bold.ttf');
+  src: url('~@/assets/fonts/SFProDisplay-Bold.ttf'),
+  url('~@/assets/fonts/SF-Pro-Display-Bold.eot'),
+  url('~@/assets/fonts/SF-Pro-Display-Bold.woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -9,7 +11,9 @@
 @font-face {
   font-family: 'SFProDisplay-Regular';
   font-display: block;
-  src: url('~@/assets/fonts/SFProDisplay-Regular.ttf');
+  src: url('~@/assets/fonts/SFProDisplay-Regular.ttf'),
+  url('~@/assets/fonts/SF-Pro-Display-Regular.eot'),
+  url('~@/assets/fonts/SF-Pro-Display-Regular.woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -17,7 +21,9 @@
 @font-face {
   font-family: 'SFProDisplay-Medium';
   font-display: block;
-  src: url('~@/assets/fonts/SF-Pro-Display-Medium.otf');
+  src: url('~@/assets/fonts/SF-Pro-Display-Medium.otf'),
+  url('~@/assets/fonts/SF-Pro-Display-Medium.eot'),
+  url('~@/assets/fonts/SF-Pro-Display-Medium.woff');
   font-weight: normal;
   font-style: normal;
 }

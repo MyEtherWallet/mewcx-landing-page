@@ -1,12 +1,12 @@
-.header-container {
-  align-items: baseline;
+.row {
+  align-items: center;
   display: flex;
   justify-content: space-between;
   margin-top: 7%;
 
   > div > a {
     color: rgb(5, 192, 165);
-    font-family: SFProText-Medium;
+    font-family: 'SFProText-Medium';
     font-size: 14px;
     text-decoration: none;
   }
@@ -14,7 +14,7 @@
 
 .header {
   color: rgb(11, 26, 64);
-  font-family: SFProText-Bold;
+  font-family: 'SFProText-Bold';
   font-size: 30px;
 }
 

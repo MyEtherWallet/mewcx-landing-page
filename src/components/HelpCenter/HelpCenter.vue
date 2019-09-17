@@ -1,12 +1,14 @@
 <template>
   <div class="faq-wrapper">
-    <div class="header-container">
-      <span class="header">FAQs</span>
-      <div>
-        <a class="mr-2" href="https://kb.myetherwallet.com/">Help Center</a>
-        <a href="mailto:support@myetherwallet.com" target="_blank">Contact Support</a>
-      </div>
-    </div>
+    <b-container class="header-container">
+      <b-row>
+        <span class="header">FAQs</span>
+        <div>
+          <a class="mr-2" href="https://kb.myetherwallet.com/">Help Center</a>
+          <a href="mailto:support@myetherwallet.com" target="_blank">Contact Support</a>
+        </div>
+      </b-row>
+    </b-container>
     <div class="body-container">
       <hr class="mt-4" align="center">
       <qa-toggle

@@ -5,9 +5,9 @@
       <span class="toggle-icon" v-show="hideAnswerContainer" @click="hideAnswerContainer = !hideAnswerContainer">+</span>
       <span class="toggle-icon" v-show="!hideAnswerContainer" @click="hideAnswerContainer = !hideAnswerContainer">-</span>
     </div>
-    <p v-show="!hideAnswerContainer" class="answer-container">
+    <div v-show="!hideAnswerContainer" class="answer-container">
       <a :href="answer">{{answer}}</a>
-    </p>
+    </div>
     <hr align="center">
   </div>
 </template>

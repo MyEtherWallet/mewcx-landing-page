@@ -1,28 +1,33 @@
 .info-box {
-  height: 216px;
+  margin-right: 3em;
   text-align: center;
-  width: 224px;
 }
 
-.row {
+.about-cx-wrapper {
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 20%;
-}
 
-.icon {
-  height: 60%;
+  @media only screen and (max-width: 690px)  {
+    margin-top: 0 !important;
+  }
 }
 
 .info-header {
   color: rgb(11, 26, 64);
-  font-family: 'SFProText-Bold';
+  font-family: SFProText-Bold;
   font-size: 20px;
-  height: 24px;
 }
 
 .info-about {
   color: rgb(51, 71, 88);
-  font-family: 'SFProText-Regular';
+  font-family: SFProText-Regular;
   font-size: 14px;
+}
+
+.container {
+  margin-top: 3em;
+  padding: 0;
+
+  @media only screen and (max-width: 690px)  {
+    margin-top: 0;
+  }
 }

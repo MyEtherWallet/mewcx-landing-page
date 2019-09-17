@@ -6,7 +6,6 @@
 
 .mew-logo {
   height: 44px;
-  padding-top: 70px;
 }
 
 .header-text {
@@ -23,7 +22,6 @@
   font-size: 12px;
   margin: 0 auto;
   text-align: center;
-  width: 648px;
 }
 
 .img-container {
@@ -37,7 +35,6 @@
   font-family: SFProText-Bold;
   font-size: 14px;
   font-weight: bold;
-  margin-top: 86px;
 }
 
 .mew-cx-btn {
@@ -61,20 +58,20 @@
 .mew-site {
   display: block;
   filter: drop-shadow(5px 5px 5px #f2f4fa);
+  height: auto;
   left: 0;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px; 
+  max-width: 100%;
   position: absolute;
   right: 0;
-  width: 55%;
   z-index: 99999;
 }
 
 .footer-design {
   bottom: 0;
   left: 0;
-  margin-top: 191px;
   position: absolute;
   width: 100%;
 }

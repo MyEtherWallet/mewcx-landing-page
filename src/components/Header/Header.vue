@@ -1,8 +1,8 @@
 <template>
   <div class="wrapper">
-    <div class="header-container">
-      <div class="img-container"> 
-        <img class="mew-logo" alt="Mew logo" src="@/assets/images/short-hand-logo-white.png"><span class="cx-txt">CX</span>
+    <div class="header-container pt-5">
+      <div class="img-container pt-5"> 
+        <img class="mew-logo" alt="Mew logo" src="@/assets/images/short-hand-logo-white.png"><span class="cx-txt mt-3 ">CX</span>
       </div>
       <p class="header-text">I am the slogan for MEW CX</p>
       <p class="body-text">Type something Type something Type something Type something Type something Type something Type something Type something Type something Type something</p>

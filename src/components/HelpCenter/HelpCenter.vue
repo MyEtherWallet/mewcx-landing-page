@@ -3,12 +3,12 @@
     <div class="header-container">
       <span class="header">FAQs</span>
       <div>
-        <a class="help-link" href="https://kb.myetherwallet.com/">Help Center</a>
+        <a class="mr-2" href="https://kb.myetherwallet.com/">Help Center</a>
         <a href="mailto:support@myetherwallet.com" target="_blank">Contact Support</a>
       </div>
     </div>
     <div class="body-container">
-      <hr align="center">
+      <hr class="mt-4" align="center">
       <qa-toggle
         :question="'MyEtherWallet: An Introduction'"
         :answer="'https://kb.myetherwallet.com/en/getting-started/myetherwallet-an-introduction/'"

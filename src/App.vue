@@ -35,5 +35,6 @@ body {
 </style>
 
 <style lang="scss" scoped>
+@import './assets/sf-pro-display.css';
 @import 'App.scss';
 </style>

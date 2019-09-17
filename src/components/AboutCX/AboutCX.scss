@@ -11,54 +11,35 @@
 
   // pixel
   @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-    margin-top: 5em !important;
+    margin-top: 4em !important;
   }
 
   // iphone5
-  @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    margin-top: 10em !important;
+  @media screen and (device-aspect-ratio: 40/71) {
+    margin-top: 8em !important;
   } 
 
-  // iphone 6,7
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-    margin-top: 5em !important;
-  }
-
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    margin-top: 1em !important;
-  }
-
-  @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    margin-top: 1em !important;
+  // iphone 6, 7
+  @media screen and (device-aspect-ratio: 375/667) {
+    margin-top: 2em !important;
   }
 }
 
 .info-header {
   color: rgb(11, 26, 64);
-  font-family: 'SFProText-Bold';
+  font-family: Arial, sans-serif;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .info-about {
   color: rgb(51, 71, 88);
-  font-family: 'SFProText-Regular';
+  font-family: Arial, sans-serif;
   font-size: 14px;
 }
 
 .container {
-  margin-top: 4em;
+  margin-top: 3em;
   padding: 0;
 
   @media only screen and (max-width: 690px)  {

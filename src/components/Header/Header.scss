@@ -10,15 +10,16 @@
 
 .header-text {
   color: rgb(255, 255, 255);
-  font-family: 'SFProText-Bold';
+  font-family: Arial, sans-serif;
   font-size: 26px;
+  font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .body-text {
   color: rgb(255, 255, 255);
-  font-family: 'SFProText-Regular';
+  font-family: Arial, sans-serif;
   font-size: 12px;
   margin: 0 auto;
   text-align: center;
@@ -32,7 +33,7 @@
 
 .cx-txt {
   color: rgb(255, 255, 255);
-  font-family: 'SFProText-Bold';
+  font-family: Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
 }
@@ -44,7 +45,7 @@
   border: none;
   border-radius: 4px;
   display: flex;
-  font-family: 'SFProText-Medium';
+  font-family: Arial, sans-serif;
   font-size: 14px;
   height: 60px;
   justify-content: space-around;
@@ -67,6 +68,10 @@
   position: absolute;
   right: 0;
   z-index: 99999;
+
+  @media only screen and (max-width: 690px)  {
+    width: 85%;
+  }
 }
 
 .footer-design {

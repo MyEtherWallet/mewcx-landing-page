@@ -6,9 +6,9 @@
       </div>
       <p class="header-text">I am the slogan for MEW CX</p>
       <p class="body-text">Type something Type something Type something Type something Type something Type something Type something Type something Type something Type something</p>
-      <button class="mew-cx-btn">Download MEW CX
-        <img src="@/assets/images/arrow.png"/>
-      </button>
+      <b-button class="mew-cx-btn mt-3">Download MEW CX
+        <img class="ml-3" src="@/assets/images/arrow.png"/>
+      </b-button>
     </div>
     <img class="mew-site" alt="mew-site" src="@/assets/images/1.png">
     <img class="footer-design" alt="footer-design" src="@/assets/images/2.png">

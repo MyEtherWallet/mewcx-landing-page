@@ -50,7 +50,12 @@
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2em;
   padding: 15px;
+
+  @media only screen and (max-height: 500px)  {
+    margin-top: 0.5em;
+  }
 }
 
 .mew-site {
@@ -60,7 +65,7 @@
   left: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px; 
+  margin-top: 2em;
   max-width: 100%;
   position: absolute;
   right: 0;

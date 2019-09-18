@@ -1,8 +1,10 @@
 <template>
   <div id="app">
     <header-component class="header-component"/>
-    <about-cx class="mt-5"/>
-    <help-center class="mt-5 mb-5"/>
+    <div class="body-container">
+      <about-cx class="mt-5"/>
+      <help-center class="mt-5 mb-5"/> 
+    </div>
     <footer-component class="mt-5"/>
   </div>
 </template>

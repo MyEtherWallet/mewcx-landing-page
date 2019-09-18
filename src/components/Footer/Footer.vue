@@ -7,7 +7,7 @@
             <a href="https://www.myetherwallet.com/privacy-policy">Privacy</a>
             <a href="https://www.myetherwallet.com/terms-and-conditions">Terms</a>
           </div>
-          <div class="copyright-txt">© 2019 MyEtherWallet. All rights reserved. </div>
+          <div class="copyright-txt mt-1">© 2019 MyEtherWallet. All rights reserved. </div>
           <div class="social-links">
             <a href="https://www.facebook.com/MyEtherWallet/" target="_blank"><img src="@/assets/images/footer_icon1.png" alt="facebook"></a>
             <a href="https://twitter.com/myetherwallet" target="_blank"><img src="@/assets/images/footer_icon2.png" alt="twitter"></a>

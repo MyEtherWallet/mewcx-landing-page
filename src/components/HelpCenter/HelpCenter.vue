@@ -4,7 +4,7 @@
       <b-row>
         <span class="header">FAQs</span>
         <div>
-          <a class="mr-2" href="https://kb.myetherwallet.com/">Help Center</a>
+          <a class="mr-3" href="https://kb.myetherwallet.com/">Help Center</a>
           <a href="mailto:support@myetherwallet.com" target="_blank">Contact Support</a>
         </div>
       </b-row>

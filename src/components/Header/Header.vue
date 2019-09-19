@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="wrapper">
-      <div class="header-container">
+      <div class="header-container pt-4">
         <div class="img-container pt-5"> 
           <img class="mew-logo" alt="Mew logo" src="@/assets/images/short-hand-logo-white.png"><span class="cx-txt mt-3 ">CX</span>
         </div>

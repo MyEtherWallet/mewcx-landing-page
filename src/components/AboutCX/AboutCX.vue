@@ -1,7 +1,7 @@
 <template>
   <div class="about-cx-wrapper">
     <b-container>
-      <b-row class="mt-4">
+      <b-row>
         <b-col class="info-box">
           <img class="icon" alt src="@/assets/images/icon1.png">
           <p class="info-header">Quick Send</p>

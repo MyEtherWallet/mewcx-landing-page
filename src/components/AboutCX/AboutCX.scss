@@ -5,29 +5,10 @@
 .about-cx-wrapper {
   display: flex;
 
-  @media only screen and (max-width: 690px)  {
-    margin-top: 0 !important;
-  }
-
-  // galaxy
-  @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-    margin-top: 2em !important;
-  }
-
   // iphone5
   @media screen and (device-aspect-ratio: 40/71) {
     margin-top: 8em !important;
   } 
-
-  // iphone 6, 7
-  @media screen and (device-aspect-ratio: 375/667) {
-    margin-top: 2em !important;
-  }
-
-  // ipad
-  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    margin-top: 1em !important;
-  }
 }
 
 .info-header {
@@ -46,19 +27,8 @@
 .container {
   margin-right: 0;
   margin-left: 0;
-  margin-top: 3em;
   min-width: 100%;
   padding: 0;
-
-
-  @media only screen and (max-width: 690px)  {
-    margin-top: 0;
-  }
-
-  // ipad
-  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    margin-top: 0 !important;
-  }
 }
 
 .row {

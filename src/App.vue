@@ -2,7 +2,7 @@
   <div id="app">
     <header-component class="header-component"/>
     <div class="body-container">
-      <about-cx class="mt-5"/>
+      <about-cx/>
       <help-center class="mt-5 mb-5"/> 
     </div>
     <footer-component class="mt-5"/>

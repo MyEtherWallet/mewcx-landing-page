@@ -1,0 +1,36 @@
+.info-box {
+  text-align: center;
+}
+
+.about-cx-wrapper {
+  display: flex;
+
+  // iphone5
+  @media screen and (device-aspect-ratio: 40/71) {
+    margin-top: 8em !important;
+  } 
+}
+
+.info-header {
+  color: rgb(11, 26, 64);
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-about {
+  color: rgb(51, 71, 88);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  margin-right: 0;
+  margin-left: 0;
+  min-width: 100%;
+  padding: 0;
+}
+
+.row {
+  max-width: 100%;
+}

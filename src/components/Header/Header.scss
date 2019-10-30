@@ -1,0 +1,94 @@
+.wrapper {
+  background-color: #304492;
+  height: 100%;
+  max-height: 80%;
+  width: 100%;
+}
+
+.mew-logo {
+  height: 90px;
+}
+
+.header-container {
+  @media only screen and (max-height: 500px)  {
+    padding-top: 0 !important;
+  }
+}
+
+.header-text {
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.body-text {
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cx-txt {
+  color: rgb(255, 255, 255);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mew-cx-btn {
+  align-items: center;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 192, 165);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  padding: 15px;
+}
+
+.mew-site {
+  display: block;
+  filter: drop-shadow(5px 5px 5px #f2f4fa);
+  height: auto;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  max-width: 100%;
+  min-width: 50%;
+  position: absolute;
+  right: 0;
+  z-index: 99999;
+
+  @media only screen and (max-height: 500px)  {
+    display: none;
+  }
+
+
+  @media only screen and (max-height: 850px)  {
+    max-height: 40%;
+  }
+
+}
+
+.footer-design {
+  bottom: 20%;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}

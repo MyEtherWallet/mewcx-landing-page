@@ -6,8 +6,8 @@
           <img class="mew-logo" alt="Mew logo" src="@/assets/images/cx_logo.jpeg">
         </div>
         <p class="header-text">Browse the blockchain. Bring your own MEW.</p>
-        <b-button class="mew-cx-btn">Download MEW CX
-          <img class="ml-3" src="@/assets/images/arrow.png"/>
+        <b-button @click="goToLink()" class="mew-cx-btn">Download MEW CX
+          <img class="ml-3 arrow" src="@/assets/images/arrow-2.png"/>
         </b-button>
       </div>
       <img class="mew-site" alt="mew-site" src="@/assets/images/1.png">
@@ -18,7 +18,11 @@
 
 <script>
 export default {
-
+  methods: {
+    goToLink() {
+      window.open('https://chrome.google.com/webstore/detail/myetherwallet-extension/nlbmnnijcnlegkjjpcfjclmcfggfefdm?hl=en')
+    }
+  }
 }
 </script>
 

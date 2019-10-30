@@ -6,7 +6,7 @@
 }
 
 .mew-logo {
-  height: 44px;
+  height: 90px;
 }
 
 .header-container {
@@ -77,6 +77,11 @@
 
   @media only screen and (max-height: 500px)  {
     display: none;
+  }
+
+
+  @media only screen and (max-height: 850px)  {
+    max-height: 40%;
   }
 
 }

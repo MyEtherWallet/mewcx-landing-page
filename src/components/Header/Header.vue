@@ -3,10 +3,9 @@
     <div class="wrapper">
       <div class="header-container pt-4">
         <div class="img-container pt-5"> 
-          <img class="mew-logo" alt="Mew logo" src="@/assets/images/short-hand-logo-white.png"><span class="cx-txt mt-3 ">CX</span>
+          <img class="mew-logo" alt="Mew logo" src="@/assets/images/cx_logo.jpeg">
         </div>
-        <p class="header-text">I am the slogan for MEW CX</p>
-        <p class="body-text">Type something Type something Type something Type something Type something Type something Type something Type something Type something Type something</p>
+        <p class="header-text">Browse the blockchain. Bring your own MEW.</p>
         <b-button class="mew-cx-btn">Download MEW CX
           <img class="ml-3" src="@/assets/images/arrow.png"/>
         </b-button>

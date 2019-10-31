@@ -6,7 +6,8 @@
 }
 
 .mew-logo {
-  height: 90px;
+  height: 60px;
+  margin-bottom: 14px;
 }
 
 .arrow {
@@ -67,7 +68,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
-  padding: 15px;
+  padding: 25px 50px;
 
   @media only screen and (max-height: 376px)  {
     margin-top: 0;
@@ -76,25 +77,31 @@
 
 .mew-site {
   display: block;
-  filter: drop-shadow(5px 5px 5px #f2f4fa);
   height: auto;
   left: 0;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em;
-  max-width: 100%;
+  margin-top: 30px;
+  max-width: 57%;
   position: absolute;
   right: 0;
   z-index: 99999;
 
-  @media only screen and (max-height: 560px)  {
+  @media only screen and (max-height: 662px)  {
     display: none;
   }
 
-  @media only screen and (max-height: 850px)  {
-    max-height: 40%;
+  @media (width: 500px) {
+    max-width: 100%;
   }
 
+  @media (min-width: 1051px) and (min-height: 600px) and (max-height: 870px) {
+    max-width: 40%;
+  }
+
+  @media (min-width: 1530px) and (min-height: 600px) and (max-height: 870px) {
+    max-width: 30%;
+  }
 }
 
 .footer-design {
@@ -103,7 +110,7 @@
   position: absolute;
   width: 100%;
 
-  @media only screen and (max-height: 426px)  {
+  @media only screen and (max-height: 440px)  {
     display: none;
   }
 }

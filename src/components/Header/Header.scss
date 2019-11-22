@@ -1,7 +1,7 @@
 .wrapper {
-  background-color: #304492;
+  background: linear-gradient(#304492 80%, #FFFFFF 20%);
   height: 100%;
-  max-height: 80%;
+  position: relative;
   width: 100%;
 }
 
@@ -82,25 +82,21 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  max-width: 57%;
-  position: absolute;
+  max-width: 900px;
+  position: relative;
   right: 0;
   z-index: 99999;
-
-  @media only screen and (max-height: 662px)  {
-    display: none;
+  
+  @media (max-width: 885px) {
+    max-width: 700px;
   }
 
-  @media (width: 500px) {
+  @media (max-width: 685px) {
+    max-width: 500px;
+  }
+ 
+  @media (max-width: 500px) {
     max-width: 100%;
-  }
-
-  @media (min-width: 1051px) and (min-height: 600px) and (max-height: 870px) {
-    max-width: 40%;
-  }
-
-  @media (min-width: 1530px) and (min-height: 600px) and (max-height: 935px) {
-    max-width: 30%;
   }
 }
 
@@ -109,8 +105,4 @@
   left: 0;
   position: absolute;
   width: 100%;
-
-  @media only screen and (max-height: 440px)  {
-    display: none;
-  }
 }

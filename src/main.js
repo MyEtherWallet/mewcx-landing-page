@@ -7,7 +7,6 @@ import Vue from 'vue';
 
 Vue.use(BootstrapVue)
 
-
 Vue.config.productionTip = false
 
 new Vue({

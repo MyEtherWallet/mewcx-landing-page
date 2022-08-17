@@ -62,7 +62,7 @@ export default {
   }),
   computed: {
     isMobile() {
-      return this.windowWidth < 400;
+      return this.windowWidth < 600;
     }
   },
   mounted() {

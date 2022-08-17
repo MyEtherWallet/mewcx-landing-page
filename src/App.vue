@@ -1,41 +1,53 @@
-<template>
-  <div id="app">
-    <header-component class="header-component"/>
-    <div class="body-container">
-      <about-cx/>
-      <help-center class="mt-5 mb-5"/> 
-    </div>
-    <footer-component class="mt-5"/>
-  </div>
-</template>
-
-<script>
-import HeaderComponent from './components/Header';
-import AboutCX from './components/AboutCX';
-import HelpCenter from './components/HelpCenter';
-import FooterComponent from './components/Footer';
-
-
-export default {
-  name: 'app',
-  components: {
-    'header-component': HeaderComponent,
-    'about-cx': AboutCX,
-    'help-center': HelpCenter,
-    'footer-component': FooterComponent
-  }
-}
+<script setup>
+import HelloWorld from './components/HelloWorld.vue';
+import TheWelcome from './components/TheWelcome.vue';
 </script>
 
-<style lang="scss">
-html, 
-body {
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
-}
-</style>
+<template>
+  <header>
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="./assets/logo.svg"
+      width="125"
+      height="125"
+    />
 
-<style lang="scss" scoped>
-@import 'App.scss';
+    <div class="wrapper">
+      <HelloWorld msg="You did it!" />
+    </div>
+  </header>
+
+  <main>
+    <TheWelcome />
+  </main>
+</template>
+
+<style scoped>
+header {
+  line-height: 1.5;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+@media (min-width: 1024px) {
+  header {
+    display: flex;
+    place-items: center;
+    padding-right: calc(var(--section-gap) / 2);
+  }
+
+  .logo {
+    margin: 0 2rem 0 0;
+  }
+
+  header .wrapper {
+    display: flex;
+    place-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
 </style>

@@ -1,41 +1,22 @@
 <template>
-  <div id="app">
-    <header-component class="header-component"/>
-    <div class="body-container">
-      <about-cx/>
-      <help-center class="mt-5 mb-5"/> 
-    </div>
-    <footer-component class="mt-5"/>
-  </div>
+  <v-app>
+    <v-main>
+      <HomeLanding />
+      <FooterBlock />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HeaderComponent from './components/Header';
-import AboutCX from './components/AboutCX';
-import HelpCenter from './components/HelpCenter';
-import FooterComponent from './components/Footer';
-
+import HomeLanding from './components/HomeLanding.vue';
+import FooterBlock from './components/FooterBlock.vue';
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
-    'header-component': HeaderComponent,
-    'about-cx': AboutCX,
-    'help-center': HelpCenter,
-    'footer-component': FooterComponent
-  }
-}
+    HomeLanding,
+    FooterBlock
+  },
+  data: () => ({})
+};
 </script>
-
-<style lang="scss">
-html, 
-body {
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
-}
-</style>
-
-<style lang="scss" scoped>
-@import 'App.scss';
-</style>

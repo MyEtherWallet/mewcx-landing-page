@@ -1,23 +1,35 @@
 # mewcx-landing-page
 
-Landing page for MyEtherWallet chrome extension. 
+This template should help get you started developing with Vue 3 in Vite.
 
-## Getting started
+## Recommended IDE Setup
 
-1. Open terminal
-2. Clone the repo: `git clone git@github.com:MyEtherWallet/mewcx-landing-page.git`
-3. run `npm i` to install node packages.
-4. run `vue-cli-service build`. 
-5. start `npm run serve`
-6. If `npm run serve` fails and above the error message it states 'new update found' then the package.json version of the indicated packages needs to be updated to match the versions shown in the notice.
-7. App should be running in `https://localhost:8080`
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Developers
+## Customize configuration
 
-1. Open terminal
-2. Clone the repo: `git@github.com:MyEtherWallet/mewcx-landing-page.git`
-3. run `git checkout master`
-4. run `npm i` to install node packages.
-5. run `vue-cli-service build`. 
-6. start `npm run serve`
-7. App should be running in `https://localhost:8080`
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+## Project Setup
+
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```

@@ -13,13 +13,13 @@
       <div class="mb-15">
         <a href="https://www.enkrypt.com/" target="_blank">
           <v-btn
-            class="extension-btn"
-            color-theme="#7E44F2"
-            style="border-radius: 100px !important"
-            :btn-size="isMobile ? 'large' : 'xlarge'"
+            height="55px"
+            class="background-color"
+            size="x-large"
+            rounded="pill"
           >
             <div
-              class="text-transform--none font-weight-bold"
+              class="px-3 text-transform--none white--text font-weight-bold"
               :class="isMobile ? 'mew-heading-3' : 'goto-btn'"
             >
               Go to Enkrypt.com
@@ -35,17 +35,16 @@
       />
     </v-container>
 
-    <div class="banner-content py-12 px-7 text-center">
-      <div class="white--text banner-text mx-auto text-center mb-6">
+    <div class="background-color py-12 px-7 text-center">
+      <div
+        class="white--text mx-auto banner-text text-center mb-6"
+        :class="isMobile ? 'mobile' : ''"
+      >
         We've upgraded and improved everything that MEWcx had to offer! Install
         Enkrypt, our multichain browser extension!
       </div>
       <a href="https://www.enkrypt.com/" target="_blank">
-        <v-btn
-          color-theme="white"
-          style="border-radius: 100px !important"
-          btn-size="large"
-        >
+        <v-btn size="x-large" rounded="pill">
           <div class="text-transform--none black--text font-weight-bold">
             Go to Enkrypt.com
           </div>
@@ -58,10 +57,25 @@
 <script>
 export default {
   name: 'HomeLanding',
-  data: () => ({}),
+  data: () => ({
+    windowWidth: window.innerWidth
+  }),
   computed: {
     isMobile() {
-      return false;
+      return this.windowWidth < 400;
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      window.addEventListener('resize', this.onResize);
+    });
+  },
+  beforeUnmount() {
+    window.removeEventListener('resize', this.onResize);
+  },
+  methods: {
+    onResize() {
+      this.windowWidth = window.innerWidth;
     }
   }
 };
@@ -81,11 +95,27 @@ export default {
 .goto-btn {
   font-size: 24px;
 }
-.banner-content {
+.background-color {
   background: linear-gradient(86.81deg, #c549ff -22.41%, #704bff 120.76%);
 }
 .banner-text {
   font-size: 20px;
   max-width: 600px;
+  &.mobile {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.white--text {
+  color: white;
+}
+.black--text {
+  color: black;
+}
+.text-transform--none {
+  text-transform: none;
+}
+a {
+  text-decoration: none;
 }
 </style>

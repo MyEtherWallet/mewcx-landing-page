@@ -3,9 +3,9 @@
     <v-container>
       <v-row>
         <v-col cols="12" md="4" class="d-flex justify-center justify-md-start">
-          <a class="white--text">Support</a>
-          <a class="white--text mx-8">Privacy</a>
-          <a class="white--text">Terms</a>
+          <a href="mailto:support@myetherwallet.com" class="white--text">Support</a>
+          <a href="https://www.myetherwallet.com/privacy-policy" class="white--text mx-8">Privacy</a>
+          <a href="https://www.myetherwallet.com/terms-of-service" class="white--text">Terms</a>
         </v-col>
         <v-col cols="12" md="4" class="teal--text text-center">
           © 2022 MyEtherWallet. All rights reserved.

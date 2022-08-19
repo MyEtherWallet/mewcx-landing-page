@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-container class="home--mewcx-enkrypt text-center py-15 px-5">
-      <img src="@/assets/img/logo.svg" alt="MEWo" height="35" />
+      <img src="@/assets/img/logo.svg" alt="MEWcx" height="35" />
 
       <div
         class="block-bold block-title"
@@ -29,8 +29,8 @@
       </div>
 
       <img
-        style="max-width: 800px; width: 100%"
-        src="@/assets/img/enkrypt-interface.jpg"
+        style="max-width: 800px; width: 100%; border-radius: 30px;"
+        src="@/assets/img/interface.jpeg"
         alt="Enkrypt interface"
       />
     </v-container>
